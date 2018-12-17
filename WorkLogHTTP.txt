@@ -1,0 +1,48 @@
+HTTP 
+
+Reading: 
+1 - https://www.lifewire.com/what-is-a-private-ip-address-2625970
+2 - https://www.howtogeek.com/117371/how-to-find-your-computers-private-public-ip-addresses/
+3 - https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers
+4 - https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
+
+
+exercise 1
+
+
+1. 5.179.80.199 and i used ip4.me site to get it.
+
+2. 10.19.149.1  the router gives each device on it a private ip. found it by using ipconfig in cmd.
+
+3. they are the ranges of allocated ip addresses for private ip's assigned by the Internet Assigned Numbers Authority (IANA)
+
+4. it's the local host IP.
+
+5. port:
+	22 - Secure Shell (SSH), secure logins, file transfers (scp, sftp) and port forwarding
+	23 - Telnet protocol—unencrypted text communications
+	25 - Simple Mail Transfer Protocol (SMTP), used for email routing between mail servers
+	53 - Domain Name System (DNS)
+	80 - Hypertext Transfer Protocol (HTTP) 
+	443 - Hypertext Transfer Protocol over TLS/SSL (HTTPS)
+	80/443 - Quick UDP Internet Connections (QUIC), a transport protocol over UDP (still in draft as of July 2018), using stream multiplexing, encryption by default with TLS, and currently supporting HTTP/2
+
+6. 165.227.137.75 - i found it using this site https://www.site24x7.com/find-ip-address-of-web-site.html
+		    but you can also run the [tracert *URL*] command in the cmd.
+
+7. when you write a url in you search box, it will through DNS servers try and find the corresponding ip addrass linked to the url.
+   it will first check your browser cache for previously visited sites.
+   if it is not found there it then moves on to the OS cache.
+   if like the browser it doesnt get found it then moves on to the router cache
+   and finally if the router doesnt have it, it then goes on to the ISP's DNS server and checks there, if the IPS doesnt have it, the ISP then takes over the task and search other DNS servers for it.
+
+8. the ip-address is where stuff is being sent, and the port is what is being sent. if i had to put it shortly.
+
+9. that would be the browsers cached DNS repository if i understand the question correct.
+
+10. DNS is a system that pairs a name(URL) to an unique ip, and DNS servers are repositories of those pairings. in my mind i see it as being quite similar to how maps work.
+    The main purpose of DNS is human-friendly navigation, not having to remember full ip addresses but rather just a name that is associated with it for ease of use.
+
+11. my current gateway is my router. or is it my gateway ip you mean in that case it's 10.19.144.1 which i found using ipconfig in the cmd.
+
+12. 
