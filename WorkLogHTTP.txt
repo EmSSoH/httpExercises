@@ -58,6 +58,22 @@ exercise 1
 HTTP
 
 
+1)
+	request url is the path
+	Request mode GET determins weather it's something to return or store in it's system
+	status code 304 nothing chanced, was a 200 before reload.
+	Date
+	accept: what can be read and translated by the source of the request.
+	connection: keep-alive. i'm asuming it's to keep the connection alive.
+	the host.
+	user-agent: which browser or such it is used on. 
+
+2)	i dont know what is being ment with connection header. i seams the same.
+
+
+3) 	i dont see a 2nd http request. i dont think it is working for me correctly.
+
+4)	
 
 
 
