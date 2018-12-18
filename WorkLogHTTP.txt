@@ -5,6 +5,7 @@ Reading:
 2 - https://www.howtogeek.com/117371/how-to-find-your-computers-private-public-ip-addresses/
 3 - https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers
 4 - https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
+5 - http://www.technologyuk.net/telecommunications/internet/tcp-ip-stack.shtml
 
 
 exercise 1
@@ -45,4 +46,10 @@ exercise 1
 
 11. my current gateway is my router. or is it my gateway ip you mean in that case it's 10.19.144.1 which i found using ipconfig in the cmd.
 
-12. 
+12. my DHCP Server is 10.255.1.10 and i found it using ipconfig /all in the cmd.
+
+13. the TCP/IP-protocol stack is the devide of protocals into layers which by them selfs do one part in the process of Linking out, establishing connection, data distinction and transport of it. when sending data from one system to another
+
+14.
+
+15.
