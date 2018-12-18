@@ -1,4 +1,4 @@
-HTTP 
+Network
 
 Reading: 
 1 - https://www.lifewire.com/what-is-a-private-ip-address-2625970
@@ -50,6 +50,14 @@ exercise 1
 
 13. the TCP/IP-protocol stack is the devide of protocals into layers which by them selfs do one part in the process of Linking out, establishing connection, data distinction and transport of it. when sending data from one system to another
 
-14.
+14. the http protocol is the most used protocol on the internet and is an aplication layer protocol, it's a portocol that uses request response though a TCP/IP connection to request data from a server.
 
-15.
+15. some of it is in 14. TCP/IP is the connection method between 2 points and http is the way data is sent though that connection.
+
+
+HTTP
+
+
+
+
+
